@@ -10,7 +10,7 @@ jobs:
         run: echo 'build'
     
   test:
-    runs-on: window-latest
+    runs-on: windows-latest
     steps:
       - name: Print test - chrome
         run: echo 'test chrome'
